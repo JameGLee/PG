@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.pg.ljh.dao.RoughlyDao">
+    <select id="selRoughly" resultType="Roughly">
+        select * from roughly
+    </select>
+<!--    查询出前八本最新出版的书籍-->
+    <select id="selBookByCreateTime" resultType="Book">
+		select * from book left join click on book.bid = click.bid where rid=1 order by book.bcreateTime desc
+	</select>
+<!--一周内点击量最高的书籍-->
+    <select id="selBookByWeekClick" resultType="Book">
+        select * from book left join click on book.bid = click.bid order by click.clicknumweek desc
+    </select>
+
+<!--    查看老舍全部作品-->
+    <select id="selBookByLaoShe" resultType="Book">
+        select * from book where bauthor = "老舍"
+    </select>
+</mapper>

@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+	
+}
+li{
+	list-style-type: none;
+}
+.clear{
+	clear: both;
+}
+.h_main{
+	background-color:#000000 ;
+	width: 100%;
+	height:200px;
+}
+/* 顶部用户名 */
+.h_top_username{
+	width: 100%;
+	height: 35px;
+	background-color: aqua;
+	text-align: right;
+	line-height: 35px;
+}
+.h_top_username>.main{
+	width: 980px;
+	background-color: azure;
+	margin: 0 auto;
+	color: #88888888;
+}
+.h_top_username>.main>a{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+	color: #88888888;
+	
+}
+/* 搜索栏、书架、logo */
+.h_main>.h_search_bs_logo{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: red;
+}
+.h_main>.h_search_bs_logo>.h_logo{
+	width: 194px;
+	height: 36px;
+	padding-top: 64px;
+}
+.h_logo>a>img{
+	width: 194px;
+	height: 36px;
+}
+.h_search{
+	width: 410px;
+	height: 36px;
+	float: left;
+	position: relative;
+}
+.h_search>form>input:first-child{
+	width: 358px;
+	height: 36px;
+	border: none;
+	padding-left: 10px;
+}
+.h_search>form>input:last-child{
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	margin-right: 20px;
+	background-color: #FFFFFF;
+	border: none;
+}
+.h_s_b_l{
+	padding-top: 60px;
+}
+.h_shelf{
+	width: 120px;
+	height: 36px;
+	border: 1px solid #ebe6e1;
+	text-align: center;
+	line-height: 36px;
+	/*background-color: ;*/
+	
+	font-size:14px;
+}
+.h_shelf>a{
+	color: #655;
+}
+.bo{
+	padding-left: 127px;
+}
+/* 首页导航栏 */
+.h_bar{
+	width: 980px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: chartreuse;
+	margin-top: 40px;
+	border-bottom: 2px solid #665656;
+}
+.h_bar>li{
+	float: left;
+	line-height: 40px;
+	width: 95px;
+	text-align: center;
+	
+	font-size: 16px;
+	    font-weight: 700;
+}
+.h_bar>li>a{
+	color: #665656;
+}
+.h_bar>li:last-child{
+	float: right;
+}
+.h_bar>li:hover{
+	border-bottom: 2px solid #c9483c;
+	cursor: pointer;
+}

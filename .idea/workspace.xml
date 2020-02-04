@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm-master:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MapperXml" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\迅雷下载\ssm-master\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XGVMSmUob5ewtQaFHqwl0KPiwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.soecode.lyf.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\images" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\webapp" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\resources\mapper" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\java\com\soecode\lyf\dao" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\java\com\soecode\lyf\entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soecode.lyf.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\迅雷下载\ssm-master\src\main\webapp\WEB-INF\jsp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tom">
+    <configuration name="BookDaoTest.testselBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="testselBookByClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoughlyDaoTest.testSelBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
+      <option name="METHOD_NAME" value="testSelBookByClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoughlyDaoTest.testSelBookByLaoShe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
+      <option name="METHOD_NAME" value="testSelBookByLaoShe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoughlyDaoTest.testSelBookByWeekClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
+      <option name="METHOD_NAME" value="testSelBookByWeekClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoughlyDaoTest.testselBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
+      <option name="METHOD_NAME" value="testselBookByClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tom" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/ssm_master/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssm-master:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_master" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm-master" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4400" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm-master:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BookDaoTest.testselBookByClick" />
+      <item itemvalue="JUnit.RoughlyDaoTest.testselBookByClick" />
+      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
+      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
+      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
+      <item itemvalue="Tomcat Server.tom" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
+        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
+        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
+        <item itemvalue="JUnit.RoughlyDaoTest.testselBookByClick" />
+        <item itemvalue="JUnit.BookDaoTest.testselBookByClick" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.15313853" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\91413\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="" />
+      <created>1580672369190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580672369190</updated>
+      <workItem from="1580672378209" duration="2423000" />
+      <workItem from="1580694984075" duration="111000" />
+      <workItem from="1580695116715" duration="2246000" />
+      <workItem from="1580697416046" duration="166000" />
+      <workItem from="1580697617829" duration="166000" />
+      <workItem from="1580697818316" duration="2218000" />
+      <workItem from="1580700487853" duration="3809000" />
+      <workItem from="1580716916275" duration="7632000" />
+      <workItem from="1580727262377" duration="1748000" />
+      <workItem from="1580729283999" duration="749000" />
+      <workItem from="1580744101551" duration="7140000" />
+      <workItem from="1580799673945" duration="3956000" />
+      <workItem from="1580803693875" duration="2888000" />
+      <workItem from="1580806693224" duration="3366000" />
+      <workItem from="1580816414437" duration="197000" />
+      <workItem from="1580816618112" duration="393000" />
+      <workItem from="1580817018951" duration="28000" />
+    </task>
+    <task id="LOCAL-00001" summary="框架搭建可以使用">
+      <created>1580717854475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580717854475</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次提交">
+      <created>1580727397114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580727397114</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二次提交">
+      <created>1580727585804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580727585804</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第一次提交">
+      <created>1580728094178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580728094178</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2020/02/04提交">
+      <created>1580808585312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580808585312</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2020/02/04提交">
+      <created>1580808940112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580808940112</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2020/02/04提交">
+      <created>1580816740519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580816740519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="框架搭建可以使用" />
+    <MESSAGE value="第二次提交" />
+    <MESSAGE value="第一次提交" />
+    <MESSAGE value="2020/02/04提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/02/04提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="139" key="#AppointmentDaoTest.testInsertAppointment" timestamp="1580698258904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="139" key="#AppointmentDaoTest.testInsertAppointment/0.0.1920.1040@0.0.1920.1040" timestamp="1580698258904" />
+    <state x="552" y="178" key="#Project_Structure" timestamp="1580698689819">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580698689819" />
+    <state x="544" y="139" key="#RoughlyDaoTest.selAllRname" timestamp="1580698649720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="544" y="139" key="#RoughlyDaoTest.selAllRname/0.0.1920.1040@0.0.1920.1040" timestamp="1580698649720" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580807938910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580807938910" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580808490006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580808490006" />
+    <state x="798" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580698156610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="798" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580698156610" />
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1580697657246">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="175" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580697657246" />
+    <state x="734" y="360" width="451" height="321" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580698986412">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="360" width="451" height="321" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580698986412" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580725001415">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580725001415" />
+    <state x="690" y="100" key="#gp" timestamp="1580699767388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="100" key="#gp/0.0.1920.1040@0.0.1920.1040" timestamp="1580699767388" />
+    <state x="492" y="23" key="CommitChangelistDialog2" timestamp="1580817117310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="492" y="23" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817117310" />
+    <state x="118" y="91" key="DiffContextDialog" timestamp="1580729201151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="118" y="91" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580729201151" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1580817035157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580817035157" />
+    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog" timestamp="1580816474382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580816474382" />
+    <state x="658" y="139" key="Github.UntrackedFilesDialog" timestamp="1580717531859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580717531859" />
+    <state width="1564" height="341" key="GridCell.Tab.0.bottom" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.0.center" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.0.left" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404636" />
+    <state width="1564" height="341" key="GridCell.Tab.0.right" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.1.bottom" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
+    <state width="1564" height="341" key="GridCell.Tab.1.center" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.1.left" timestamp="1580816404637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.1.right" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
+    <state width="1564" height="341" key="GridCell.Tab.2.bottom" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
+    <state width="1564" height="341" key="GridCell.Tab.2.center" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
+    <state width="1564" height="341" key="GridCell.Tab.2.left" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
+    <state width="1564" height="341" key="GridCell.Tab.2.right" timestamp="1580816404638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
+    <state width="1564" height="341" key="GridCell.Tab.3.bottom" timestamp="1580807860622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
+    <state width="1564" height="341" key="GridCell.Tab.3.center" timestamp="1580807860622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
+    <state width="1564" height="341" key="GridCell.Tab.3.left" timestamp="1580807860622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
+    <state width="1564" height="341" key="GridCell.Tab.3.right" timestamp="1580807860622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="341" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1580816535450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580816535450" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580816968020">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580816968020" />
+    <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1580674670762">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="759" y="297" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580674670762" />
+    <state x="123" y="89" width="1389" height="719" key="dock-window-1" timestamp="1580719712057">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="123" y="89" width="1389" height="719" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1580719712057" />
+    <state x="626" y="237" width="667" height="566" key="find.popup" timestamp="1580697500469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="237" width="667" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580697500469" />
+    <state x="663" y="293" key="git4idea.merge.GitPullDialog" timestamp="1580816948039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="293" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580816948039" />
+    <state x="635" y="373" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580718159183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="635" y="373" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580718159183" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1580744569764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580744569764" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1580728038241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1580728038241" />
+    <state x="770" y="271" key="svn4idea.import.options" timestamp="1580728037078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="271" key="svn4idea.import.options/0.0.1920.1040@0.0.1920.1040" timestamp="1580728037078" />
+  </component>
+</project>
