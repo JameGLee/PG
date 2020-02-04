@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 20px 0 20px 40px;
+}
+
+.d_main {
+    width: 100%;
+    background-color: #B81D22;
+}
+
+.d_loginwindow {
+    position: relative;
+    left: 130px;
+    width: 557px;
+    margin: 0 auto;
+    float: left;
+}
+
+.login {
+    width: 500px;
+    text-align: center;
+}
+
+.td {
+    padding: 10px 0 10px 0;
+}
+
+.td>input {
+    width: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.d_mainwindow {
+    margin-top: 100px;
+    padding: 50px 20px 50px 20px;
+    background-color: #ffffff;
+}
+
+.submit {
+    padding: 10px 0 0 0;
+}
+
+.submit>input {
+    font-size: 18px;
+    width: 519px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.h_refor>li {
+    float: right;
+    padding: 0 2px 0 2px;
+}
+
+.publicity {
+    float: left;
+    width: 1069px;
+    height: 490px;
+    background-image: url(../images/0e6b56187d74e86fc0ab80e4b52d6091.jpg);
+    background-size: cover;
+}

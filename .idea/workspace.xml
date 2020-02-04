@@ -6,7 +6,32 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="" />
+    <list default="true" id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="2020/02/04提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/0e6b56187d74e86fc0ab80e4b52d6091.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/LoginDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_master_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/RoughlyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/RoughlyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/web/RoughlyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/web/RoughlyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/web/RoughlyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/web/RoughlyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="MapperXml" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -61,38 +86,41 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\webapp\WEB-INF\jsp" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.soecode.lyf.service" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\images" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\webapp" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\resources\mapper" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\java\com\soecode\lyf\dao" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\java\com\soecode\lyf\entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.soecode.lyf.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\迅雷下载\ssm-master\src\main\webapp\WEB-INF\jsp" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\images" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\css" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\webapp" />
+      <recent name="D:\迅雷下载\ssm-master\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tom">
-    <configuration name="BookDaoTest.testselBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.35">
+    <configuration name="LoginDaoTest.testSelSinglrUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PG" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +129,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.BookDaoTest" />
-      <option name="METHOD_NAME" value="testselBookByClick" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.LoginDaoTest" />
+      <option name="METHOD_NAME" value="testSelSinglrUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,34 +184,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoughlyDaoTest.testselBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pg.ljh.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
-      <option name="METHOD_NAME" value="testselBookByClick" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tom" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/ssm_master/" />
+    <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/ssm/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ssm-master:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/ssm_master" />
+            <option name="CONTEXT_PATH" value="/ssm" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm-master" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm-master_3" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -191,7 +203,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="4400" />
+        <option name="DEBUG_PORT" value="5545" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -246,20 +258,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookDaoTest.testselBookByClick" />
-      <item itemvalue="JUnit.RoughlyDaoTest.testselBookByClick" />
       <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
       <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
       <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
-      <item itemvalue="Tomcat Server.tom" />
+      <item itemvalue="JUnit.LoginDaoTest.testSelSinglrUser" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.35" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginDaoTest.testSelSinglrUser" />
         <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
         <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
         <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
-        <item itemvalue="JUnit.RoughlyDaoTest.testselBookByClick" />
-        <item itemvalue="JUnit.BookDaoTest.testselBookByClick" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +283,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -308,6 +323,7 @@
       <workItem from="1580816414437" duration="197000" />
       <workItem from="1580816618112" duration="393000" />
       <workItem from="1580817018951" duration="28000" />
+      <workItem from="1580817052434" duration="11848000" />
     </task>
     <task id="LOCAL-00001" summary="框架搭建可以使用">
       <created>1580717854475</created>
@@ -358,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580816740519</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2020/02/04提交">
+      <created>1580817122897</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580817122897</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,14 +407,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="139" key="#RoughlyDaoTest.selAllRname/0.0.1920.1040@0.0.1920.1040" timestamp="1580698649720" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580807938910">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580833736372">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580807938910" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580808490006">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580833736372" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580830051632">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580808490006" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580830051632" />
     <state x="798" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580698156610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -412,10 +435,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="100" key="#gp/0.0.1920.1040@0.0.1920.1040" timestamp="1580699767388" />
-    <state x="492" y="23" key="CommitChangelistDialog2" timestamp="1580817117310">
+    <state x="492" y="23" key="CommitChangelistDialog2" timestamp="1580817794750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="492" y="23" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817117310" />
+    <state x="492" y="23" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817794750" />
     <state x="118" y="91" key="DiffContextDialog" timestamp="1580729201151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,86 +447,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580817035157" />
-    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog" timestamp="1580816474382">
+    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog" timestamp="1580817554316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580816474382" />
+    <state x="825" y="410" width="277" height="286" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580817554316" />
     <state x="658" y="139" key="Github.UntrackedFilesDialog" timestamp="1580717531859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580717531859" />
-    <state width="1564" height="341" key="GridCell.Tab.0.bottom" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.0.bottom" timestamp="1580836215250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.0.center" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
+    <state width="1564" height="380" key="GridCell.Tab.0.center" timestamp="1580836215249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.0.left" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215249" />
+    <state width="1564" height="380" key="GridCell.Tab.0.left" timestamp="1580836215248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404636" />
-    <state width="1564" height="341" key="GridCell.Tab.0.right" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215248" />
+    <state width="1564" height="380" key="GridCell.Tab.0.right" timestamp="1580836215249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.1.bottom" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215249" />
+    <state width="1564" height="380" key="GridCell.Tab.1.bottom" timestamp="1580836215250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
-    <state width="1564" height="341" key="GridCell.Tab.1.center" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
+    <state width="1564" height="380" key="GridCell.Tab.1.center" timestamp="1580836215250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.1.left" timestamp="1580816404637">
+    <state width="1564" height="380" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
+    <state width="1564" height="380" key="GridCell.Tab.1.left" timestamp="1580836215250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.1.right" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
+    <state width="1564" height="380" key="GridCell.Tab.1.right" timestamp="1580836215250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404637" />
-    <state width="1564" height="341" key="GridCell.Tab.2.bottom" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
+    <state width="1564" height="380" key="GridCell.Tab.2.bottom" timestamp="1580836215252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
-    <state width="1564" height="341" key="GridCell.Tab.2.center" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
+    <state width="1564" height="380" key="GridCell.Tab.2.center" timestamp="1580836215252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
-    <state width="1564" height="341" key="GridCell.Tab.2.left" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
+    <state width="1564" height="380" key="GridCell.Tab.2.left" timestamp="1580836215252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
-    <state width="1564" height="341" key="GridCell.Tab.2.right" timestamp="1580816404638">
+    <state width="1564" height="380" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
+    <state width="1564" height="380" key="GridCell.Tab.2.right" timestamp="1580836215252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580816404638" />
-    <state width="1564" height="341" key="GridCell.Tab.3.bottom" timestamp="1580807860622">
+    <state width="1564" height="380" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
+    <state width="1564" height="380" key="GridCell.Tab.3.bottom" timestamp="1580836215255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
-    <state width="1564" height="341" key="GridCell.Tab.3.center" timestamp="1580807860622">
+    <state width="1564" height="380" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215255" />
+    <state width="1564" height="380" key="GridCell.Tab.3.center" timestamp="1580836215254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
-    <state width="1564" height="341" key="GridCell.Tab.3.left" timestamp="1580807860622">
+    <state width="1564" height="380" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215254" />
+    <state width="1564" height="380" key="GridCell.Tab.3.left" timestamp="1580836215252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
-    <state width="1564" height="341" key="GridCell.Tab.3.right" timestamp="1580807860622">
+    <state width="1564" height="380" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
+    <state width="1564" height="380" key="GridCell.Tab.3.right" timestamp="1580836215255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="341" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580807860622" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1580816535450">
+    <state width="1564" height="380" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215255" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1580832772533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580816535450" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580816968020">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580832772533" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580817902602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580816968020" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817902602" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1580674670762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,18 +539,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="237" width="667" height="566" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580697500469" />
-    <state x="663" y="293" key="git4idea.merge.GitPullDialog" timestamp="1580816948039">
+    <state x="663" y="293" key="git4idea.merge.GitPullDialog" timestamp="1580817866377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="663" y="293" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580816948039" />
+    <state x="663" y="293" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580817866377" />
     <state x="635" y="373" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1580718159183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="635" y="373" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580718159183" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1580744569764">
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1580830798018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580744569764" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580830798018" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1580728038241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

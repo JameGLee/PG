@@ -26,15 +26,14 @@
             <div class="account_desc">
                 <ul>
                     <li><a href="#">注册</a></li>
-                    <li><a href="#">登录</a></li>
-
+                    <li><a href="login">登录</a></li>
                 </ul>
             </div>
             <div class="clear"></div>
         </div>
         <div class="header_top">
             <div class="logo">
-                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                <a href="${pageContext.request.contextPath}/index.jsp"><img src="${pageContext.request.contextPath}/images/laozhangdezhexue.jpg" alt="" /></a>
             </div>
             <div class="cart">
                 <p>欢迎来到娜尔思读书<span>书架：</span>
@@ -132,7 +131,7 @@
                                     <a href="preview.html" class="button">Shop Now</a>
                                 </div>
                                 <div class="slider-img"> -->
-                                    <a href="#"><img src="${pageContext.request.contextPath}/images/2019_11_12_bfd0169352cc4671a98b7b25dc3cfb79 (1).png" alt="learn more" /></a>
+                                    <a href="#"><img src="${pageContext.request.contextPath}/images/2019_11_12_bfd0169352cc4671a98b7b25dc3cfb79%20(1).png" alt="learn more" /></a>
                                 </div>
                                 <div class="clear"></div>
                             </div>
@@ -166,12 +165,12 @@
                     <h3>最新小说发布</h3>
                 </div>
                 <div class="see">
-                    <p><a href="#">查看所有小说</a></p>
+                    <p><a href="#">更多最新小说</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="section group">
-                <c:forEach items="${bookList}" var="book">
+                <c:forEach items="${bookList}" var="book" begin="0" end="10">
                     <div class="grid_1_of_4 images_1_of_4">
                     <a href="#"><img src="../${book.bcover}" alt="" style="width: 140px;height: 220px"/></a>
                     <h2>${book.bname}</h2>
@@ -192,12 +191,12 @@
                     <h3>本周最热</h3>
                 </div>
                 <div class="see">
-                    <p><a href="#">查看所有热门小说</a></p>
+                    <p><a href="#">更多热门小说</a></p>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="section group">
-                <c:forEach items="${bookClick}" var="book" begin="0" end="8">
+                <c:forEach items="${bookClick}" var="book" begin="0" end="10">
                     <div class="grid_1_of_4 images_1_of_4">
                         <a href="#"><img src="../${book.bcover}" alt="" style="width: 140px;height: 220px"/></a>
                         <h2>${book.bname}</h2>
