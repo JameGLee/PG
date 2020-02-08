@@ -25,8 +25,17 @@
             </div>
             <div class="account_desc">
                 <ul>
-                    <li><a href="#">注册</a></li>
-                    <li><a href="login">登录</a></li>
+                    <c:choose>
+                        <c:when test="${sessionScope.username != null}">
+                            <li><a href="register">${username}</a></li>
+                            <li><a href="userout">退出</a></li>
+                        </c:when>
+                        <c:otherwise>
+                            <li><a href="register">注册</a></li>
+                            <li><a href="login">登录</a></li>
+                        </c:otherwise>
+                    </c:choose>
+
                 </ul>
             </div>
             <div class="clear"></div>

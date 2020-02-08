@@ -22,8 +22,9 @@ public class Book {
 	private Date bcreateTime;//该书籍更新时间
 	private long cid;//书籍点击量id
 	private Click click;
+	private Types types;
 
-	public Book(long bid, String bcover, String bname, String bauthor, long rid, long tid, String bbrief, boolean bstatus, boolean bispay, long lid, long bwords, Date bupdatetime, Date bcreateTime, long cid, Click click) {
+	public Book(long bid, String bcover, String bname, String bauthor, long rid, long tid, String bbrief, boolean bstatus, boolean bispay, long lid, long bwords, Date bupdatetime, Date bcreateTime, long cid, Click click, Types types) {
 		this.bid = bid;
 		this.bcover = bcover;
 		this.bname = bname;
@@ -39,6 +40,15 @@ public class Book {
 		this.bcreateTime = bcreateTime;
 		this.cid = cid;
 		this.click = click;
+		this.types = types;
+	}
+
+	public Types getTypes() {
+		return types;
+	}
+
+	public void setTypes(Types types) {
+		this.types = types;
 	}
 
 	public Click getClick() {
@@ -182,6 +192,7 @@ public class Book {
 				", bcreateTime=" + bcreateTime +
 				", cid=" + cid +
 				", click=" + click +
+				", types=" + types +
 				'}';
 	}
 }

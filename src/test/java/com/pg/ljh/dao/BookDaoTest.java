@@ -43,4 +43,18 @@ public class BookDaoTest extends BaseTest {
 			System.out.println(book.getBname());
 		}
 	}
+
+	@Test
+	public void testSelBookByKeyWord(){
+		String bookname = "骆驼祥子";
+		String author="老舍";
+		String brief = "的";
+		String type = "小说";
+		List<Book> bookList = bookDao.selBookByKeyWord("老");
+		for (Book books :
+				bookList) {
+			System.out.println(books.toString()  );
+		}
+
+	}
 }

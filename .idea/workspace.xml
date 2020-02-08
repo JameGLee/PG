@@ -6,31 +6,155 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="2020/02/04提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/0e6b56187d74e86fc0ab80e4b52d6091.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/LoginDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ssm_master_war.xml" beforeDir="false" />
+    <list default="true" id="e57ae90d-474d-4ff0-b89d-6110d0be33c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yunpian_sdk_yunpian_java_sdk_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_cache_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/RegisterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/impl/RegisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/util/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RegisterDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login/register-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/NoteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/RegisterDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PG.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/RoughlyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pg/ljh/web/RoughlyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BookDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LoginDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/LoginDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao/LoginDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/AppointmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/AppointmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/RoughlyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/dao/RoughlyDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/dto/AppointExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/dto/AppointExecution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/dto/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/dto/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Appointment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Attention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Attention.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Chapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Chapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Click.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Click.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Fans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Fans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Lable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Lable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Monthly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Monthly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/ReadNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/ReadNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Roughly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Roughly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/entity/Types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/enums/AppointStateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/enums/AppointStateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/AppointException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/AppointException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/NoNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/NoNumberException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/RepeatAppointException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/exception/RepeatAppointException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/RoughlyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/RoughlyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/impl/RoughlyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/service/impl/RoughlyServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/pg/ljh/web/RoughlyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pg/ljh/web/RoughlyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BookDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/AppointmentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/AppointmentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/RoughlyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dao/RoughlyDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dto/AppointExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dto/AppointExecution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dto/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/dto/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Appointment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Attention.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Attention.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Chapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Chapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Click.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Click.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Comments.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Comments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Fans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Fans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Lable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Lable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Monthly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Monthly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/ReadNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/ReadNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Roughly.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Roughly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/entity/Types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/enums/AppointStateEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/enums/AppointStateEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/AppointException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/AppointException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/NoNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/NoNumberException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/RepeatAppointException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/exception/RepeatAppointException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/RoughlyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/RoughlyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/impl/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/impl/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/impl/RoughlyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/service/impl/RoughlyServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/web/RoughlyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/pg/ljh/web/RoughlyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/BookDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mapper/BookDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/jsp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/AppointmentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/AppointmentDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/BookDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/BookDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/RoughlyDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/dao/RoughlyDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/service/impl/BookServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/service/impl/BookServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/web/AbstractContextControllerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/web/AbstractContextControllerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/web/BookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/pg/ljh/web/BookControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +189,12 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\jar" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -86,40 +216,69 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/pg/ljh/dao" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.soecode.lyf.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\test\java\com\pg\ljh\dao" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\java\com\pg\ljh\util" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\css" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF\jsp" />
+      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soecode.lyf.dao" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF\jsp" />
       <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp" />
       <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF" />
       <recent name="D:\迅雷下载\ssm-master\src\main\webapp\WEB-INF\jsp" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.soecode.lyf.service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.soecode.lyf.dao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\images" />
-      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\css" />
-      <recent name="C:\Users\91413\Desktop\ssm-master\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\webapp" />
-      <recent name="D:\迅雷下载\ssm-master\src\main\resources\mapper" />
-    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.35">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testSelAllUser">
+    <configuration name="NoteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.NoteTest" />
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTest.testSelBookByKeyWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pg.ljh.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.BookDaoTest" />
+      <option name="METHOD_NAME" value="testSelBookByKeyWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginDaoTest.testSelSinglrUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PG" />
       <extension name="coverage">
@@ -136,7 +295,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoughlyDaoTest.testSelBookByClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NoteTest.noteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PG" />
       <extension name="coverage">
         <pattern>
@@ -145,14 +304,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
-      <option name="METHOD_NAME" value="testSelBookByClick" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.NoteTest" />
+      <option name="METHOD_NAME" value="noteTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoughlyDaoTest.testSelBookByLaoShe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.testSelAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PG" />
       <extension name="coverage">
         <pattern>
@@ -161,24 +320,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
-      <option name="METHOD_NAME" value="testSelBookByLaoShe" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RoughlyDaoTest.testSelBookByWeekClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pg.ljh.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pg.ljh.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.RoughlyDaoTest" />
-      <option name="METHOD_NAME" value="testSelBookByWeekClick" />
+      <option name="MAIN_CLASS_NAME" value="com.pg.ljh.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testSelAllUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,18 +401,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
-      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
-      <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
-      <item itemvalue="JUnit.LoginDaoTest.testSelSinglrUser" />
+      <item itemvalue="JUnit.BookDaoTest.testSelBookByKeyWord" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.35" />
+      <item itemvalue="JUnit.NoteTest.noteTest" />
+      <item itemvalue="Application.NoteTest" />
+      <item itemvalue="JUnit.LoginDaoTest.testSelSinglrUser" />
+      <item itemvalue="JUnit.UserDaoTest.testSelAllUser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testSelAllUser" />
         <item itemvalue="JUnit.LoginDaoTest.testSelSinglrUser" />
-        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByLaoShe" />
-        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByWeekClick" />
-        <item itemvalue="JUnit.RoughlyDaoTest.testSelBookByClick" />
+        <item itemvalue="Application.NoteTest" />
+        <item itemvalue="JUnit.NoteTest.noteTest" />
+        <item itemvalue="JUnit.BookDaoTest.testSelBookByKeyWord" />
       </list>
     </recent_temporary>
   </component>
@@ -295,6 +440,10 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\91413\AppData\Roaming\Subversion</configuration>
@@ -324,6 +473,10 @@
       <workItem from="1580816618112" duration="393000" />
       <workItem from="1580817018951" duration="28000" />
       <workItem from="1580817052434" duration="11848000" />
+      <workItem from="1580836410015" duration="242000" />
+      <workItem from="1581005527318" duration="3944000" />
+      <workItem from="1581009846168" duration="30126000" />
+      <workItem from="1581149033734" duration="7346000" />
     </task>
     <task id="LOCAL-00001" summary="框架搭建可以使用">
       <created>1580717854475</created>
@@ -381,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580817122897</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2020/02/05提交">
+      <created>1580836482704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580836482704</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +552,8 @@
     <MESSAGE value="第二次提交" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="2020/02/04提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020/02/04提交" />
+    <MESSAGE value="2020/02/05提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020/02/05提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="544" y="139" key="#AppointmentDaoTest.testInsertAppointment" timestamp="1580698258904">
@@ -407,14 +568,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="139" key="#RoughlyDaoTest.selAllRname/0.0.1920.1040@0.0.1920.1040" timestamp="1580698649720" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580833736372">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581063109456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580833736372" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580830051632">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581063109456" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1581103489653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580830051632" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581103489653" />
     <state x="798" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580698156610">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -427,26 +588,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="360" width="451" height="321" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1580698986412" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580725001415">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581010820531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580725001415" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581010820531" />
     <state x="690" y="100" key="#gp" timestamp="1580699767388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="100" key="#gp/0.0.1920.1040@0.0.1920.1040" timestamp="1580699767388" />
-    <state x="492" y="23" key="CommitChangelistDialog2" timestamp="1580817794750">
+    <state x="492" y="23" key="CommitChangelistDialog2" timestamp="1580836475488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="492" y="23" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817794750" />
+    <state x="492" y="23" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580836475488" />
     <state x="118" y="91" key="DiffContextDialog" timestamp="1580729201151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="118" y="91" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580729201151" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1580817035157">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1581062138043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580817035157" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581062138043" />
     <state x="825" y="410" width="277" height="286" key="Github.ShareDialog" timestamp="1580817554316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -455,78 +616,78 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="139" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580717531859" />
-    <state width="1564" height="380" key="GridCell.Tab.0.bottom" timestamp="1580836215250">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom" timestamp="1581165667921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
-    <state width="1564" height="380" key="GridCell.Tab.0.center" timestamp="1580836215249">
+    <state width="1877" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581165667921" />
+    <state width="1877" height="376" key="GridCell.Tab.0.center" timestamp="1581165667921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215249" />
-    <state width="1564" height="380" key="GridCell.Tab.0.left" timestamp="1580836215248">
+    <state width="1877" height="376" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581165667921" />
+    <state width="1877" height="376" key="GridCell.Tab.0.left" timestamp="1581165667920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215248" />
-    <state width="1564" height="380" key="GridCell.Tab.0.right" timestamp="1580836215249">
+    <state width="1877" height="376" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581165667920" />
+    <state width="1877" height="376" key="GridCell.Tab.0.right" timestamp="1581165667921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215249" />
-    <state width="1564" height="380" key="GridCell.Tab.1.bottom" timestamp="1580836215250">
+    <state width="1877" height="376" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581165667921" />
+    <state width="1564" height="233" key="GridCell.Tab.1.bottom" timestamp="1581165095733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
-    <state width="1564" height="380" key="GridCell.Tab.1.center" timestamp="1580836215250">
+    <state width="1564" height="233" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095733" />
+    <state width="1564" height="233" key="GridCell.Tab.1.center" timestamp="1581165095732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
-    <state width="1564" height="380" key="GridCell.Tab.1.left" timestamp="1580836215250">
+    <state width="1564" height="233" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095732" />
+    <state width="1564" height="233" key="GridCell.Tab.1.left" timestamp="1581165095732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
-    <state width="1564" height="380" key="GridCell.Tab.1.right" timestamp="1580836215250">
+    <state width="1564" height="233" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095732" />
+    <state width="1564" height="233" key="GridCell.Tab.1.right" timestamp="1581165095733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215250" />
-    <state width="1564" height="380" key="GridCell.Tab.2.bottom" timestamp="1580836215252">
+    <state width="1564" height="233" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095733" />
+    <state width="1564" height="233" key="GridCell.Tab.2.bottom" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
-    <state width="1564" height="380" key="GridCell.Tab.2.center" timestamp="1580836215252">
+    <state width="1564" height="233" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.2.center" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
-    <state width="1564" height="380" key="GridCell.Tab.2.left" timestamp="1580836215252">
+    <state width="1564" height="233" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.2.left" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
-    <state width="1564" height="380" key="GridCell.Tab.2.right" timestamp="1580836215252">
+    <state width="1564" height="233" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.2.right" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
-    <state width="1564" height="380" key="GridCell.Tab.3.bottom" timestamp="1580836215255">
+    <state width="1564" height="233" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.3.bottom" timestamp="1581165095735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215255" />
-    <state width="1564" height="380" key="GridCell.Tab.3.center" timestamp="1580836215254">
+    <state width="1564" height="233" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095735" />
+    <state width="1564" height="233" key="GridCell.Tab.3.center" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215254" />
-    <state width="1564" height="380" key="GridCell.Tab.3.left" timestamp="1580836215252">
+    <state width="1564" height="233" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.3.left" timestamp="1581165095734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215252" />
-    <state width="1564" height="380" key="GridCell.Tab.3.right" timestamp="1580836215255">
+    <state width="1564" height="233" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095734" />
+    <state width="1564" height="233" key="GridCell.Tab.3.right" timestamp="1581165095735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="380" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580836215255" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1580832772533">
+    <state width="1564" height="233" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581165095735" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1581164099422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580832772533" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580817902602">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581164099422" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580836497144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580817902602" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580836497144" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1580674670762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -547,10 +708,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="635" y="373" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580718159183" />
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1580830798018">
+    <state x="702" y="147" key="refactoring.ChangeSignatureDialog" timestamp="1581166153408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1580830798018" />
+    <state x="702" y="147" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581166153408" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1581065549156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581065549156" />
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1581164460500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="173" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581164460500" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1580728038241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -559,5 +728,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="271" key="svn4idea.import.options/0.0.1920.1040@0.0.1920.1040" timestamp="1580728037078" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pg/ljh/web/LoginController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

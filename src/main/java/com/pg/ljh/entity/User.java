@@ -5,7 +5,7 @@ import java.util.Date;
 public class User {
     private long uid;
     private String uname;
-    private String uPassword;
+    private String upassword;
     private boolean ustatus;//是否为vip用户
     private long uphone;//电话
     private String uemail;//用户邮箱
@@ -13,10 +13,10 @@ public class User {
     private Date ucreateTime;
     private Date uupdatetime;
 
-    public User(long uid, String uname, String uPassword, boolean ustatus, long uphone, String uemail, long aid, Date ucreateTime, Date uupdatetime) {
+    public User(long uid, String uname, String upassword, boolean ustatus, long uphone, String uemail, long aid, Date ucreateTime, Date uupdatetime) {
         this.uid = uid;
         this.uname = uname;
-        this.uPassword = uPassword;
+        this.upassword = upassword;
         this.ustatus = ustatus;
         this.uphone = uphone;
         this.uemail = uemail;
@@ -26,6 +26,14 @@ public class User {
     }
 
     public User() {
+    }
+
+    public String getUpassword() {
+        return upassword;
+    }
+
+    public void setUpassword(String upassword) {
+        this.upassword = upassword;
     }
 
     public long getUid() {
@@ -44,13 +52,6 @@ public class User {
         this.uname = uname;
     }
 
-    public String getuPassword() {
-        return uPassword;
-    }
-
-    public void setuPassword(String uPassword) {
-        this.uPassword = uPassword;
-    }
 
     public boolean isUstatus() {
         return ustatus;
@@ -105,7 +106,7 @@ public class User {
         return "User{" +
                 "uid=" + uid +
                 ", uname='" + uname + '\'' +
-                ", uPassword='" + uPassword + '\'' +
+                ", uPassword='" + upassword + '\'' +
                 ", ustatus=" + ustatus +
                 ", uphone=" + uphone +
                 ", uemail='" + uemail + '\'' +

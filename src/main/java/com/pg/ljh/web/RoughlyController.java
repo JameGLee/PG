@@ -16,7 +16,7 @@ import java.util.List;
 public class RoughlyController {
     @Autowired
     private RoughlyService roughlyService = new RoughlyServiceImpl();
-    @RequestMapping(value = "list")
+    @RequestMapping(value = "home")
     public String selRoughly(Model model){
 //        小說類型
         List<Roughly> roughlyList = roughlyService.selAllRname();
@@ -36,5 +36,9 @@ public class RoughlyController {
     @RequestMapping(value = "login")
     public String login(){
         return "login";
+    }
+    @RequestMapping("register")
+    public String register(){
+        return "register";
     }
 }

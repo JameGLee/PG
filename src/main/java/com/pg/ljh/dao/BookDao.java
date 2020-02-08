@@ -37,4 +37,8 @@ public interface BookDao {
 	 * @return
 	 */
 	List<Book> selBookByClick();
+
+	List<Book> selBookByKeyWord(@Param("keywords") String keywords);
+
+
 }

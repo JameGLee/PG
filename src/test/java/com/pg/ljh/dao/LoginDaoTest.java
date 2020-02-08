@@ -19,7 +19,7 @@ public class LoginDaoTest extends BaseTest {
 
     @Test
     public void testSelSinglrUser(){
-        User users = loginDao.selSingleUser("Jame", "jame123");
+        User users = loginDao.selSingleUser("Jame",null);
         System.out.println(users.toString());
     }
 }

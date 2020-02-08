@@ -39,4 +39,13 @@
 	<select id="selBookByClick" resultType="Book">
 		select * from book left join click on book.bid = click.bid where rid=1 order by book.bcreateTime  limit 0,5
 	</select>
+
+<!--	搜索书籍-->
+	<select id="selBookByKeyWord" parameterType="java.util.Map" resultType="Book">
+		select * from book left join types on book.tid = types.id
+		where 1=1
+		<if test="keywords!=null">
+			and CONCAT(IFNULL(bname,''),IFNULL(bauthor,''),IFNULL(type,''),IFNULL(bbrief,'')) like CONCAT ('%',#{keywords},'%')
+		</if>
+	</select>
 </mapper>
