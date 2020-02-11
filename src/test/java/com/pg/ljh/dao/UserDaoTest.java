@@ -16,7 +16,7 @@ public class UserDaoTest {
     private UserDao userDao;
     @Test
     public void testSelAllUser(){
-       User user = userDao.selAllUser("Jame",null,null);
+       User user = userDao.selAllUser("Jame");
         System.out.println(user.toString());
     }
 }

@@ -1,44 +1,93 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    li {
-        list-style: none;
-    }
-    
-    .main {
-        width: 980px;
-        margin: 0 auto;
-        background-color: blueviolet;
-    }
-    
-    .main_register {
-        margin: 0 auto;
-    }
-    
-    .main_register>form>ul {
-        width: 500px;
-        margin: 0 auto;
-    }
-    
-    .reg>input {
-        width: 400px;
-        height: 40px;
-        font-size: 18px;
-        margin-top: 20px;
-        padding-left: 10px;
-    }
-    
-    .sub {
-        padding-top: 40px;
-    }
-    
-    .sub>input {
-        width: 415px;
-        height: 40px;
-        margin: 0 auto;
-    }
-    .error{
-        color: red;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    width: 980px;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+}
+
+.main_register {
+    margin: 0 auto;
+}
+/* 	ul{
+		width: 800px;
+		margin: 0 auto;
+		background-color: #00FFFF;
+	}
+	ul>li{
+		border: 1px solid #000000;
+	}
+   ul>li>p{
+	   width: 150px;
+	   height: 40px;
+	   background-color:#7FFF00;
+	   text-align: center;
+	   line-height: 40px;
+   }
+   ul>li>input{
+	   /* float: left;
+   }
+
+    */
+.form-submit{
+    width: 400px;
+    /* background-color: #665555; */
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.form-item {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 398px;
+    height: 51px;
+    z-index: 0;
+}
+.form-item label {
+    float: left;
+    width: 87px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+}
+.form-item input {
+    border: 0 none;
+    font-size: 14px;
+    width: 230px;
+    height: 19px;
+    outline: none;
+    padding-bottom: 11px;
+    padding-left: 20px;
+    padding-top: 16px;
+}
+.input-tip {
+    color: #c5c5c5;
+    height: 27px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.form-item-mailcode{
+    border: none;
+    z-index: 110;
+    width: 400px;
+}
+.btn-mailcode {
+    float: left;
+    width: 118px;
+    height: 52px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background: #fff;
+    color: #333;
+    padding: 0;
+}
+.item-mailcode-wrap{
+    display: none;
+    height: 86px;
+}
