@@ -21,7 +21,7 @@
 <body>
 <div class="main">
     <div class="main_register">
-        <form action="" method="POST">
+        <form action="startRegister" method="POST">
             <div class="form-submit">
                 <div class="form-item">
                     <label>用 户 名</label>
@@ -38,16 +38,16 @@
                     <span></span>
                 </div>
                 <div class="form-item"><label>确认密码</label>
-                    <input type="password" name="uaffirmpwd" id="requiredpassword" value="" placeholder="确认密码"/>
+                    <input type="password" name="uaffirmpwd" id="requiredpassword" value="" placeholder="确认密码" onblur="requiredQwd()"/>
                 </div>
                 <div class="input-tip">
-                    <span></span>
+                    <span class="required-error"></span>
                 </div>
                 <div class="form-item"><label>联系电话</label>
-                    <input type="text" name="uphone" id="phone" value="" placeholder="联系电弧"/>
+                    <input type="text" name="uphone" id="phone" value="" placeholder="联系电弧" onblur="registerphone()"/>
                 </div>
                 <div class="input-tip">
-                    <span></span>
+                    <span class="phone-error"></span>
                 </div>
                 <div class="item-mailcode-wrap" style="display: block;">
                     <div class="form-item form-item-mailcode">
@@ -66,8 +66,11 @@
                 <div class="input-tip">
                     <span></span>
                 </div>
-            </div>
 
+            </div>
+            <div>
+                <input type="submit" value="开始注册">
+            </div>
         </form>
     </div>
 

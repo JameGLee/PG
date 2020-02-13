@@ -7,7 +7,7 @@ public class Author {
     private String apenname; //"作者笔名",
     private String aname; //"作者姓名",
     private String ahead; //"作者头像",
-    private String aidentitycard; //"身份证号",
+    private Long aidentitycard; //"身份证号",
     private String aemail; //"作者邮箱",
     private long aphone; //"作者电话",
     private double asalary; //"作者获得薪水",
@@ -18,7 +18,7 @@ public class Author {
     private Date aupdatetime; //'更新时间'
     private String aintroduce;//作者简介
 
-    public Author(long aid, String apenname, String aname, String ahead, String aidentitycard, String aemail, long aphone, double asalary, int apostcode, boolean astatus, String aresidential, Date acreateTime, Date aupdatetime, String aintroduce) {
+    public Author(long aid, String apenname, String aname, String ahead, Long aidentitycard, String aemail, long aphone, double asalary, int apostcode, boolean astatus, String aresidential, Date acreateTime, Date aupdatetime, String aintroduce) {
         this.aid = aid;
         this.apenname = apenname;
         this.aname = aname;
@@ -102,11 +102,11 @@ public class Author {
         this.ahead = ahead;
     }
 
-    public String getAidentitycard() {
+    public Long getAidentitycard() {
         return aidentitycard;
     }
 
-    public void setAidentitycard(String aidentitycard) {
+    public void setAidentitycard(Long aidentitycard) {
         this.aidentitycard = aidentitycard;
     }
 

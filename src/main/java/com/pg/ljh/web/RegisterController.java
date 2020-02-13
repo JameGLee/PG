@@ -1,6 +1,5 @@
 package com.pg.ljh.web;
 
-import com.pg.ljh.entity.Appointment;
 import com.pg.ljh.entity.SmsResult;
 import com.pg.ljh.entity.User;
 import com.pg.ljh.enums.AppointStateEnum;
@@ -29,40 +28,66 @@ public class RegisterController {
     private UserService userService = new UserServiceImpl();
 
     /**
-     * @param request
-     * @param response
-     * @param name     ajax上传的用户名
+     *
+     * @param name  注册用户名
      * @return
      * @throws IOException
      */
-    /*@RequestMapping("judge")
-    public String register(HttpServletRequest request, HttpServletResponse response, String name) throws IOException {
-        String uname = request.getParameter("uname");
-        User user = userService.selAllUser(uname);
-//        异步判断注册信息已经被注册
-        if (name.equals(user.getUname())) {
-            response.getWriter().write("用户名已被注册");
-        }
-
-
-//        if (upwd.equals(uaffirmpwd)){
-//            registerService.registerUser(uname, upwd, phone, uemail);
-//            return "login";
-//        }else{
-//            return "error";
-//        }
-        return null;
-    }*/
     @RequestMapping("judge")
     @ResponseBody
     public  SmsResult register(@RequestParam("name") String name) throws IOException {
 //        String uname = request.getParameter("uname");
-        User user = userService.selAllUser(name);
+        //是否填谢用户名
+
+        User user = userService.selAllUserByUserName(name);
 //        异步判断注册信息已经被注册
         if (user!=null) {
             return new SmsResult(AppointStateEnum.USER_EXIST);
         }
+//        else  if (name==null){
+//            return new SmsResult(AppointStateEnum.NOT_USERNAME);
+//        }
         return new SmsResult(AppointStateEnum.USER_NOT_EXIST);
     }
 
+//    判断手机号是否被注册
+    @RequestMapping("phone")
+    @ResponseBody
+    public SmsResult registerPhone(@RequestParam("phone") Long phone){
+        User user = userService.selAllUserByPhone(phone);
+        if (user!=null){
+            return new SmsResult(AppointStateEnum.USER_PHONE_EXIST);
+        }
+        return new SmsResult((AppointStateEnum.USER_PHONE_NOT_EXIST));
+    }
+
+    @RequestMapping("required")
+    @ResponseBody
+    public SmsResult requiredPwd(@RequestParam("pwd") String pwd,@RequestParam("requiredPwd") String requiredPwd){
+        if (!pwd.equals(requiredPwd)){
+            return new SmsResult((AppointStateEnum.PASSWORD_NOT_TRUE));
+        }
+        return new SmsResult(AppointStateEnum.PASSWORD_TRUE);
+    }
+    /**
+     * 开始注册
+     * @param request
+     * @return
+     */
+    @RequestMapping("startRegister")
+    public String startRegister(HttpServletRequest request){
+        String uname = request.getParameter("uname");
+        String upwd = request.getParameter("upwd");
+        String uaffirmpwd = request.getParameter("uaffirmpwd");
+        String uphone = request.getParameter("uphone");
+
+        if (upwd.equals(uaffirmpwd)){
+            int index = registerService.registerUser(uname, upwd, Long.parseLong(uphone));
+            if (index<0){
+                return "registerError";
+            }
+        }
+
+        return "registerSuccess";
+    }
 }

@@ -37,8 +37,45 @@ public interface BookDao {
 	 * @return
 	 */
 	List<Book> selBookByClick();
+	/**
+	 * 书籍名、作者名查找
+	 */
+	List<Book> selBookByBookNameAndAuthor(@Param("bname") String bname,@Param("bauthor") String bauthor);
 
+	/**
+	 * 根据一周点击量排序分页
+	 * @return
+	 */
+	List<Book> orderForBook();
+	/**
+	 * 搜索书籍
+	 * @param keywords 根据关键字搜索
+	 * @return
+	 */
 	List<Book> selBookByKeyWord(@Param("keywords") String keywords);
 
+	/**
+	 *
+	 * @param bcover 书籍封面
+	 * @param bname	  书籍名
+	 * @param bauthor  作者
+	 * @param roughly  书籍大致分类
+	 * @param types     书籍详细分类
+	 * @param bbrief     书籍简介
+	 * @param bstatus   书籍是否完
+	 * @param bispay	书籍是否付费
+	 * @param bwords     书籍字数
+	 * @return
+	 */
+	int insertBookByAuthor(@Param("bcover") String bcover,@Param("bname") String bname,@Param("bauthor") String bauthor,@Param("roughly") String roughly,@Param("types") String types,@Param("bbrief") String bbrief,@Param("bstatus") boolean bstatus,@Param("bispay") boolean bispay,@Param("bwords") long bwords);
 
+	/**
+	 *
+	 * @param bbrief  书籍简介
+	 * @param bstatus  书籍是否完结
+	 * @param bispay   书籍是否付费
+	 * @param bwords    书籍字数
+	 * @return
+	 */
+	int updateBookInfor(@Param("bbrief") String bbrief,@Param("bstatus") boolean bstatus,@Param("bispay") boolean bispay,@Param("bwords") long bwords,@Param("bid") long bid);
 }

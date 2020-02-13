@@ -15,7 +15,7 @@ public class RegisterDaoTest {
     public void registerUserTest(){
         String phone = "18862633560";
         long phone1 = Long.parseLong(phone);
-        int index = registerDao.registerUser("王五","wangwu123",phone1,"18862633560@163.com");
+        int index = registerDao.registerUser("王五","wangwu123",18862633560L);
         if (index>0){
             System.out.println("添加成功");
         }

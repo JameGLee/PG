@@ -9,8 +9,9 @@ import org.springframework.stereotype.Service;
 public class RegisterServiceImpl implements RegisterService {
     @Autowired
     private RegisterDao registerDao;
-    public int registerUser(String name,String password,long phone,String eamil) {
-        return registerDao.registerUser(name,password,phone,eamil);
+    public int registerUser(String name,String password,long phone) {
+        return registerDao.registerUser(name,password,phone);
     }
+
 
 }

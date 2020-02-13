@@ -10,7 +10,11 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
-    public User selAllUser(String name){
-        return userDao.selAllUser(name);
+    public User selAllUserByUserName(String name){
+        return userDao.selAllUserByUserName(name);
+    }
+
+    public User selAllUserByPhone(Long phone) {
+        return userDao.selAllUserByPhone(phone);
     }
 }

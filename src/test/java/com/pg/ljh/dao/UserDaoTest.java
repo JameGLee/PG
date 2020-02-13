@@ -16,7 +16,13 @@ public class UserDaoTest {
     private UserDao userDao;
     @Test
     public void testSelAllUser(){
-       User user = userDao.selAllUser("Jame");
+       User user = userDao.selAllUserByUserName("Jame");
+        System.out.println(user.toString());
+    }
+
+    @Test
+    public void testSelAllUserByPhone(){
+        User user = userDao.selAllUserByPhone(18862633560L);
         System.out.println(user.toString());
     }
 }
